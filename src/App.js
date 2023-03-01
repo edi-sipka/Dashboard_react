@@ -6,8 +6,7 @@ import Dashboard  from "./scenes/dashboard";
 import Sidebar  from "./scenes/global/Sidebar";
 import Team  from "./scenes/team";
 import Contacts from "./scenes/contacts";
-//import Invoices  from "./scenes/invoices";
-
+import Invoices  from "./scenes/invoices";
 //import Bar from "./scenes/bar";
 //import Form  from "./scenes/form";
 //import Faq  from "./scenes/faq";
@@ -33,6 +32,7 @@ function App() {
             <Route path="/" element={<Dashboard />} />
             <Route path="/team" element={<Team />} />
             <Route path="/contacts" element={<Contacts />} />
+            <Route path="/invoices" element={<Invoices />} />
           </Routes>
         </main>
       </div>
